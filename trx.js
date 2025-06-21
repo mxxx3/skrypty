@@ -5,8 +5,11 @@
 // @description  Klikaj TRX jak najszybciej na lejyonmining.netlify.app
 // @author       Ty
 // @match        https://lejyonmining.netlify.app/*
+// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
+// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
 // @grant        none
 // ==/UserScript==
+
 
 (function() {
     'use strict';
