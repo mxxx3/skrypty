@@ -6,6 +6,8 @@
 // @author       You
 // @include      *geturanium.io*
 // @run-at       document-idle
+// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
+// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
 // @grant        none
 // ==/UserScript==
 
