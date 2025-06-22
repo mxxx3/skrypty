@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Uranium Auto Clicker po nazwach
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Klikanie elementów o nazwach Auto Collector, Shard Multiplier, Conveyor Booster co 30s z odstępem 1s
 // @author       You
 // @include      *geturanium.io*
 // @run-at       document-idle
-// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
-// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
+// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/uranium.js
+// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/uranium.js
 // @grant        none
 // ==/UserScript==
 
