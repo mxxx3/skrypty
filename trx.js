@@ -7,6 +7,7 @@
 // @match        https://lejyonmining.netlify.app/*
 // @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/lejyon-auto.user.js
 // @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/lejyon-auto.user.js
+
 // @grant        none
 // ==/UserScript==
 
