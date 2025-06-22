@@ -5,10 +5,8 @@
 // @description  Klikanie dwóch reklam na zmianę oraz TRX co 100 ms na lejyonmining.netlify.app
 // @author       Ty
 // @match        https://lejyonmining.netlify.app/*
-// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/refs/heads/main/trx.js
-// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/refs/heads/main/trx.js
-
-
+// @updateURL    https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
+// @downloadURL  https://raw.githubusercontent.com/mxxx3/skrypty/main/trx.js
 // @grant        none
 // ==/UserScript==
 
