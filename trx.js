@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LejyonMining Reklamy + Auto TRX
 // @namespace    http://tampermonkey.net/
-// @version      2.5
+// @version      2.6
 // @description  Klikanie dwóch reklam na zmianę oraz TRX co 100 ms na lejyonmining.netlify.app
 // @author       Ty
 // @match        https://lejyonmining.netlify.app/*
@@ -101,6 +101,6 @@ setInterval(() => {
     localStorage.clear();
     sessionStorage.clear();
     location.reload();
-}, 3600000); // 1 godzina w milisekundach
+}, 18000000); // 5 godzina w milisekundach
 
 })();
