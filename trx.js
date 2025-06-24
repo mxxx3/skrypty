@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LejyonMining Reklamy + Auto TRX
 // @namespace    http://tampermonkey.net/
-// @version      2.4
+// @version      2.5
 // @description  Klikanie dwóch reklam na zmianę oraz TRX co 100 ms na lejyonmining.netlify.app
 // @author       Ty
 // @match        https://lejyonmining.netlify.app/*
@@ -94,5 +94,13 @@
     }
 
     setInterval(clickTRX, 100);
+
+    // ====== MODUŁ 3: CZYSZCZENIE CACHE CO GODZINĘ ======
+setInterval(() => {
+    console.log("[CacheCleaner] Odświeżenie strony w celu wyczyszczenia cache i załadowania reklam na nowo.");
+    localStorage.clear();
+    sessionStorage.clear();
+    location.reload();
+}, 3600000); // 1 godzina w milisekundach
 
 })();
